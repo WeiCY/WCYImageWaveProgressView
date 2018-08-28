@@ -15,6 +15,7 @@
 		F5C093FF21350FC3006289AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C093FE21350FC3006289AE /* main.m */; };
 		F5C0940921350FC3006289AE /* WCYWaveProgressViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C0940821350FC3006289AE /* WCYWaveProgressViewDemoTests.m */; };
 		F5C0941421350FC3006289AE /* WCYWaveProgressViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C0941321350FC3006289AE /* WCYWaveProgressViewDemoUITests.m */; };
+		F5C094C821358EF2006289AE /* WCYWaveProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C094C721358EF2006289AE /* WCYWaveProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F5C0940F21350FC3006289AE /* WCYWaveProgressViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WCYWaveProgressViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C0941321350FC3006289AE /* WCYWaveProgressViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCYWaveProgressViewDemoUITests.m; sourceTree = "<group>"; };
 		F5C0941521350FC3006289AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5C094C621358EF2006289AE /* WCYWaveProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCYWaveProgressView.h; sourceTree = "<group>"; };
+		F5C094C721358EF2006289AE /* WCYWaveProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCYWaveProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		F5C093EE21350FC1006289AE /* WCYWaveProgressViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F5C094C521358EF2006289AE /* WCYWaveProgressView */,
 				F5C093EF21350FC1006289AE /* AppDelegate.h */,
 				F5C093F021350FC1006289AE /* AppDelegate.m */,
 				F5C093F221350FC1006289AE /* ViewController.h */,
@@ -130,6 +134,15 @@
 				F5C0941521350FC3006289AE /* Info.plist */,
 			);
 			path = WCYWaveProgressViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		F5C094C521358EF2006289AE /* WCYWaveProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				F5C094C621358EF2006289AE /* WCYWaveProgressView.h */,
+				F5C094C721358EF2006289AE /* WCYWaveProgressView.m */,
+			);
+			path = WCYWaveProgressView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +277,7 @@
 			files = (
 				F5C093F421350FC1006289AE /* ViewController.m in Sources */,
 				F5C093FF21350FC3006289AE /* main.m in Sources */,
+				F5C094C821358EF2006289AE /* WCYWaveProgressView.m in Sources */,
 				F5C093F121350FC1006289AE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
